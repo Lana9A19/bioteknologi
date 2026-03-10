@@ -1,0 +1,89 @@
+body{
+    margin: 0px;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color: #7B4019 ;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color:#3A0519;
+    border-radius: 20px 10px 20px 10px;
+    padding: 20px;
+}   
+.banner{
+    color: #3A0519;
+}
+nav a:hover{
+    color: #C08552;
+    transition: 0.75s;
+    text-decoration: none;
+    text-shadow: 0px 0px 5px deeppink;
+    background-color:#8A7650(13, 198, 235);
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 5px 2px #4E1F00;
+    padding: 7px 20px;
+}
+section.home{
+    height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url(tapeketan.png);
+    background-position: center;
+}
+.containerHome{
+    width: 40%;
+    margin-left: 50px;
+    padding-top: 100px;
+}
+h1.judulHome{
+    font-size: 50px;
+}
+.deskripsiHome{
+    font-size: 35px;
+}
+section.project{
+    height: 800px;
+    text-align: center;
+}
+.containerAbout{
+    width: 50%;
+    margin: auto;
+    padding: 50px 20px;
+    & img{
+        height: 300px;
+    }
+    text-align: center;
+    font-size: 25px;
+}
+.containerHowto{
+    text-align: center;
+    font-size: 25px;
+    background-color: #8A7650;
+    & img{
+        height: 300px;
+        width: 50%;
+        margin: auto;
+        padding: 50px 20px;
+    }
+}
+.containerProfile{
+    text-align: center;
+    font-size: 25px;
+    background-color: antiquewhite;
+    & img{
+        height: 450px;
+        width: 50%;
+        margin: auto;
+        padding: 50px 20px;
+    }
+}
+html{
+    scroll-behavior: smooth;
+}
+    
